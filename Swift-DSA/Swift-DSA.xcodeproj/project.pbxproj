@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6B7FCD0E2C06448300816D9D /* AddTwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FCD0D2C06448300816D9D /* AddTwoSum.swift */; };
+		6B7FCD102C08356600816D9D /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FCD0F2C08356600816D9D /* Palindrome.swift */; };
 		6BD5E5A22C06404A00D237ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD5E5A12C06404A00D237ED /* AppDelegate.swift */; };
 		6BD5E5A42C06404A00D237ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD5E5A32C06404A00D237ED /* SceneDelegate.swift */; };
 		6BD5E5A62C06404A00D237ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD5E5A52C06404A00D237ED /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		6B7FCD0D2C06448300816D9D /* AddTwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoSum.swift; sourceTree = "<group>"; };
+		6B7FCD0F2C08356600816D9D /* Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
 		6BD5E59E2C06404A00D237ED /* Swift-DSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-DSA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD5E5A12C06404A00D237ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BD5E5A32C06404A00D237ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				6BD5E5A32C06404A00D237ED /* SceneDelegate.swift */,
 				6BD5E5A52C06404A00D237ED /* ViewController.swift */,
 				6B7FCD0D2C06448300816D9D /* AddTwoSum.swift */,
+				6B7FCD0F2C08356600816D9D /* Palindrome.swift */,
 				6BD5E5A72C06404A00D237ED /* Main.storyboard */,
 				6BD5E5AA2C06404A00D237ED /* Assets.xcassets */,
 				6BD5E5AC2C06404A00D237ED /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BD5E5A62C06404A00D237ED /* ViewController.swift in Sources */,
+				6B7FCD102C08356600816D9D /* Palindrome.swift in Sources */,
 				6BD5E5A22C06404A00D237ED /* AppDelegate.swift in Sources */,
 				6B7FCD0E2C06448300816D9D /* AddTwoSum.swift in Sources */,
 				6BD5E5A42C06404A00D237ED /* SceneDelegate.swift in Sources */,
