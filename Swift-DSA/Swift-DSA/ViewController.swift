@@ -8,12 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+ var object = ThreeSumClosest()
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let a = [1,2,3,4,5]
-        print(a.myFilter{$0 % 2 == 0})
+        print(object.threeSumClosest([-1,2,1,-4], 1))
     }
 
 
