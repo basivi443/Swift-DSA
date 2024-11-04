@@ -19,6 +19,33 @@ class Palindrome{
             }
         }
     }
+    
+    func getPalinfromeWithNumber(number:Int)-> Bool{
+        var originalNumber = number
+        var reversedNumber = 0
+        while originalNumber != 0{
+            let lastDigit = originalNumber % 10
+            reversedNumber = reversedNumber * 10 + lastDigit
+            originalNumber /= 10
+        }
+    
+        return number == reversedNumber
+    }
+    // Check palidrome with convert to string
+    func getPalindromeNumber(number:Int)-> Bool{
+        let convertStr = String(number)
+        return convertStr == reverseString(str: convertStr)
+    }
+    
+    func reverseString(str:String)-> String{
+        var reversedStr = ""
+        for i in str{
+            reversedStr = "\(i)" + reversedStr
+        }
+        return reversedStr
+    }
+    
+    
 }
 //var solution = Palindrome()
 //let value = solution.getPalindrome(numbers: [1,2,3,4,3,2,1])
