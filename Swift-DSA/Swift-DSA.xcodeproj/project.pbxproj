@@ -23,6 +23,7 @@
 		6BD5E5A92C06404A00D237ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD5E5A72C06404A00D237ED /* Main.storyboard */; };
 		6BD5E5AB2C06404A00D237ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD5E5AA2C06404A00D237ED /* Assets.xcassets */; };
 		6BD5E5AE2C06404A00D237ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD5E5AC2C06404A00D237ED /* LaunchScreen.storyboard */; };
+		6BE0E60D2CDBE94900483843 /* SubStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE0E60C2CDBE94900483843 /* SubStrings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		6BD5E5AA2C06404A00D237ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BD5E5AD2C06404A00D237ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BD5E5AF2C06404A00D237ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BE0E60C2CDBE94900483843 /* SubStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubStrings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				6B7FCE192C541DAE00816D9D /* 3SumClosest.swift */,
 				6B2857962C59582D00EEA827 /* ReverseInter.swift */,
 				6B7FCD7E2C1F0D0A00816D9D /* GenericApiCall.swift */,
+				6BE0E60C2CDBE94900483843 /* SubStrings.swift */,
 				6B7FCD0F2C08356600816D9D /* Palindrome.swift */,
 				6BD5E5A72C06404A00D237ED /* Main.storyboard */,
 				6BD5E5AA2C06404A00D237ED /* Assets.xcassets */,
@@ -172,6 +175,7 @@
 				6B7FCD102C08356600816D9D /* Palindrome.swift in Sources */,
 				6BD5E5A22C06404A00D237ED /* AppDelegate.swift in Sources */,
 				6B7FCD0E2C06448300816D9D /* AddTwoSum.swift in Sources */,
+				6BE0E60D2CDBE94900483843 /* SubStrings.swift in Sources */,
 				6B2857972C59582D00EEA827 /* ReverseInter.swift in Sources */,
 				6B7FCD7F2C1F0D0A00816D9D /* GenericApiCall.swift in Sources */,
 				6B7FCD792C1D9E5D00816D9D /* OwnHigherOrderFunctions.swift in Sources */,
