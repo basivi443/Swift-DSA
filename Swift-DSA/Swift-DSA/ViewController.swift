@@ -11,7 +11,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+       var obj = LongestCommonPrefix()
+        var long = obj.longestCommonPrefix(["flower","flo","fltrs"])
+        print(long)
+        
     }
     
     

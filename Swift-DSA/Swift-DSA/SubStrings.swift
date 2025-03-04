@@ -22,4 +22,4 @@ class SubString{
  
 //var solution = SubString()
 //let value = solution.printAllSubstringInGivenStr(str: "abc")
-//print(value)
+//print(value) a bc c ab bc b 

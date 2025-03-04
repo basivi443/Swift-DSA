@@ -8,13 +8,10 @@
 import Foundation
 
 class MyGenericClass<Value> {
-
     var value: Value
-
     init(_ value: Value) {
         self.value = value
     }
-    
     convenience init?(_ value: Value?) {
         switch value {
         case .some(let unwrapped):
@@ -23,14 +20,10 @@ class MyGenericClass<Value> {
             return nil
         }
     }
-    
 }
 
-
 extension MyGenericClass where Value == Int {
-    
     func doSomething() {}
-    
 }
 
 //Optional Generic inferring

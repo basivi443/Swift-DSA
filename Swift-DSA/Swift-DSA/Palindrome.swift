@@ -50,3 +50,19 @@ class Palindrome{
 //var solution = Palindrome()
 //let value = solution.getPalindrome(numbers: [1,2,3,4,3,2,1])
 //print(value)
+
+//1234%10 = 4 <-
+//1234/10 = 123
+//123%10 = 3 <-
+//123/10 = 12
+//12%10 = 2 <-
+//12/10 = 1
+//1%10 = 1 <-
+//
+//var num = 12345
+//var arrayInt = [Int]()
+//arrayInt.append(num%10)
+//while num >= 10 {
+//  num = num/10
+//  arrayInt.insert(num%10, at: 0)
+//}

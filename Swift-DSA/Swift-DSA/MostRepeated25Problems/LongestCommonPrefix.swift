@@ -19,7 +19,6 @@ class LongestCommonPrefix {
                 }
             }
         }
-        
         return key
     }
 }
