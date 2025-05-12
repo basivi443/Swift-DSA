@@ -75,6 +75,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B86D7202DCD147500A5F290 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6B7FCD7C2C1F0C7A00816D9D /* SingleResponsibilityPrinciple.swift */,
+				6B7FCD782C1D9E5D00816D9D /* OwnHigherOrderFunctions.swift */,
+				6B7FCD7E2C1F0D0A00816D9D /* GenericApiCall.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
 		6BD5E5952C06404A00D237ED = {
 			isa = PBXGroup;
 			children = (
@@ -94,19 +104,11 @@
 		6BD5E5A02C06404A00D237ED /* Swift-DSA */ = {
 			isa = PBXGroup;
 			children = (
+				6B86D7202DCD147500A5F290 /* Swift */,
 				6BE0E6EE2D74C81800483843 /* MostRepeated25Problems */,
 				6BD5E5A12C06404A00D237ED /* AppDelegate.swift */,
-				6B7FCD7E2C1F0D0A00816D9D /* GenericApiCall.swift */,
 				6BD5E5A32C06404A00D237ED /* SceneDelegate.swift */,
 				6BD5E5A52C06404A00D237ED /* ViewController.swift */,
-				6B7FCD0D2C06448300816D9D /* AddTwoSum.swift */,
-				6B7FCD782C1D9E5D00816D9D /* OwnHigherOrderFunctions.swift */,
-				6B7FCD7C2C1F0C7A00816D9D /* SingleResponsibilityPrinciple.swift */,
-				6B7FCE152C50329900816D9D /* FindAllDuplicatesInArray.swift */,
-				6B7FCE172C51D6DC00816D9D /* FindAllLonelyNumbersInArray.swift */,
-				6B7FCE192C541DAE00816D9D /* 3SumClosest.swift */,
-				6BE0E60C2CDBE94900483843 /* SubStrings.swift */,
-				6B7FCD0F2C08356600816D9D /* Palindrome.swift */,
 				6BD5E5A72C06404A00D237ED /* Main.storyboard */,
 				6BD5E5AA2C06404A00D237ED /* Assets.xcassets */,
 				6BD5E5AC2C06404A00D237ED /* LaunchScreen.storyboard */,
@@ -123,11 +125,17 @@
 				6BE0E6F32D74CB1200483843 /* RemoveDuplicateCharFromString.swift */,
 				6BE0E6F52D74CD1000483843 /* FirstNonRepeatCharacter.swift */,
 				6BE0E6F72D74D27A00483843 /* CheckTwoStringAnagram.swift */,
+				6B7FCE152C50329900816D9D /* FindAllDuplicatesInArray.swift */,
+				6B7FCE172C51D6DC00816D9D /* FindAllLonelyNumbersInArray.swift */,
+				6B7FCE192C541DAE00816D9D /* 3SumClosest.swift */,
+				6BE0E60C2CDBE94900483843 /* SubStrings.swift */,
+				6B7FCD0F2C08356600816D9D /* Palindrome.swift */,
 				6B2857962C59582D00EEA827 /* ReverseInter.swift */,
 				6BE0E6FB2D75648E00483843 /* LongestSubstringWithoutRepeat.swift */,
 				6BE0E6102CDBEB4D00483843 /* LongestCommonPrefix.swift */,
 				6BE0E6FD2D76144000483843 /* MostFrequentCharecterInString.swift */,
 				6B7FCD7A2C1DA3A200816D9D /* GenericOptional.swift */,
+				6B7FCD0D2C06448300816D9D /* AddTwoSum.swift */,
 			);
 			path = MostRepeated25Problems;
 			sourceTree = "<group>";
